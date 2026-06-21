@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RapidQuake Assistant</title>
 
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+
+        <div class="logo">
+            🌍 RapidQuake
+        </div>
+
+        <button class="new-chat" id="newChatBtn">
+            + New Chat
+        </button>
+
+        <div class="menu-title">
+            Assistant
+        </div>
+
+        <div class="menu-item active">
+            💬 Chat
+        </div>
+
+        <div class="menu-title">
+            Emergency
+        </div>
+
+        <div class="menu-item">
+            🛟 Safety Tips
+        </div>
+
+        <div class="menu-item">
+            🏠 Shelters
+        </div>
+
+        <div class="menu-item">
+            🚑 Emergency Contacts
+        </div>
+
+        <div class="menu-item">
+            📋 Rescue Requests
+        </div>
+
+        <div style="margin-top:auto;">
+
+        <div class="history-section">
+
+    <div class="menu-title">
+        Recent Chats
+    </div>
+
+    <div id="chat-history"></div>
+
+</div>
+
+        </div>
+
+    </aside>
+
+    
+
+    <!-- Main Area -->
+    <main class="main">
+
+        <!-- Header -->
+        <header class="header">
+
+    <div class="header-left">
+
+        <button class="menu-toggle" onclick="toggleSidebar()">
+            ☰
+        </button>
+
+        <div>
+            <h2>RapidQuake Assistant</h2>
+            <p>Emergency Preparedness & Support</p>
+        </div>
+
+    </div>
+
+    <div class="status">
+        ● Assisting
+    </div>
+
+</header>
+
+        <!-- Chat Area -->
+        <section id="chat-box">
+
+    <div class="welcome-card">
+
+        <h1>👋 Welcome to RapidQuake</h1>
+
+        <p>
+            Your AI-powered disaster preparedness and emergency response assistant.
+        </p>
+
+        <div class="welcome-grid">
+
+            <div class="feature-card">
+                <h3>🛟 Safety Tips</h3>
+                <p>Learn earthquake safety and preparedness.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🏠 Shelters</h3>
+                <p>Locate nearby shelters and safe zones.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🚑 Contacts</h3>
+                <p>Access emergency contact information.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>📋 Rescue Requests</h3>
+                <p>Create and track rescue requests.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+        <!-- Quick Actions -->
+        <section class="actions">
+
+            <button onclick="quickMessage('Earthquake Safety Tips')">
+                🛟 Safety Tips
+            </button>
+
+            <button onclick="showShelters()">
+            🏠 Find Shelter
+            </button>
+
+            <button onclick="quickMessage('Emergency Contacts')">
+                🚑 Contacts
+            </button>
+
+            <button onclick="quickMessage('Emergency Kit Checklist')">
+                🎒 Emergency Kit
+            </button>
+
+            <button onclick="quickMessage('I need rescue help')">
+                🚨 Need Rescue
+            </button>
+
+        </section>
+
+        <!-- Input -->
+        <section class="input-area">
+
+            <input
+                type="text"
+                id="message"
+                placeholder="Type your message..."
+                onkeydown="if(event.key==='Enter') sendMessage()"
+            >
+
+            <button class="send-btn" onclick="sendMessage()">
+                ➤
+            </button>
+            <button class="voice-btn" onclick="startVoice()">
+                🎤
+            </button>
+
+            
+        </section>
+
+    </main>
+
+</div>
+
+<script src="/static/script_19_6.js"></script>
+
+</body>
+</html>
