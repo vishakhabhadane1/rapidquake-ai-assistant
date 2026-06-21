@@ -6,7 +6,7 @@ It is an AI-powered earthquake preparedness and emergency response assistant. It
 
 ## 📖 Overview
 
-RapidQuake combines a conversational AI engine with real-time interaction to help people prepare for, respond to, and stay informed during earthquake-related emergencies. Users can ask questions, get safety instructions, and receive guidance through both text and voice — all from a simple web interface.
+RapidQuake AI Assistent Bot combines a conversational AI engine with real-time interaction to help people prepare for, respond to, and stay informed during earthquake-related emergencies. Users can ask questions, get safety instructions, and receive guidance through both text and voice — all from a simple web interface.
 
 ---
 
