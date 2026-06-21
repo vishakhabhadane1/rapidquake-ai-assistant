@@ -13,6 +13,18 @@ RapidQuake AI Assistent Bot combines a conversational AI engine with real-time i
 ## ✨ Features
 
 - 🤖 Interactive AI chatbot for earthquake safety guidance
+- 💬 Natural language conversation using Llama 3.2 through Ollama.
+- 🎤 Voice input support with speech-to-text functionality.
+- 📋 Intelligent chat history management with multiple conversations.
+- 🚨 Emergency assistance guidance during disaster situations.
+- 📞 Quick access to emergency service contacts.
+- 🛟 Earthquake safety tips and preparedness recommendations.
+- 🏠 Shelter and safe-zone information assistance.
+- 📱 Mobile-friendly responsive user interface.
+- ⚡ FastAPI-powered backend for real-time interaction.
+- 🔒 Privacy-focused design with local AI processing.
+- 🌐 Modern web-based interface accessible from any device.
+- 🤖 AI-powered earthquake preparedness and emergency response assistant.
 - 🎙️ Voice assistance support
 - 🆘 Emergency and disaster-related information on demand
 - 💻 Lightweight, browser-based interface
